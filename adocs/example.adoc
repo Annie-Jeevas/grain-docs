@@ -1,0 +1,15 @@
+= Grain.io specifications
+Author's Name <anna.light.terry@gmail.com>
+
+:numbered:
+== Common
+=== Sub-section with Anchor
+There are some terms, which we use though this document.
+[glossary]
+Initial coin offering (ICO)::
+    attraction of investments by selling
+    a fixed number of new units of crypto-currencies to investors
+
+Know Your Client (KYC)::
+    a policy in which financial institutions are required to establish
+    the identity of their client before conducting transactions with him
