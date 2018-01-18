@@ -22,7 +22,9 @@ Know Your Client (KYC)::
 *Users* can view statistics to make sure, ICO proceeds successful. _It can attract new investors._
 
 *Investors* can buy tokens to:
-
+////////////////////////////
+TODO What will investors get after ICO ending?
+////////////////////////////
 - profit in the future
 - support the project evolution
 
@@ -35,8 +37,46 @@ In the Fig.1 you can see use cases of the system. More about it.
 image::../images/use case.PNG[Use case diagram]
 
 === Leave a request
-In accordance with KYC, user must confirm his identity before buying tokens. So, user can leave
+*Role:* User
+
+*Period:* before ICO ends
+
+*Description:* In accordance with KYC, user must confirm his identity before buying tokens. So, user can leave
 a request to enter his address in the whitelist.
 ////////////////////////////
 TODO What data should user provide to get the permission?
+TODO How should ICO end?
 ////////////////////////////
+=== View statistics
+*Role:* User, Investor, Owner
+
+*Period:* any
+
+*Description:* There are several types of data, user can view:
+
+ - current token rate
+ - number of investors
+ - ratio of the sold token amount to the common token amount
+
+=== View ICO period
+*Role:* User, Investor, Owner
+
+*Period:* any
+
+*Description:* User can view time limits of ICO, if they are established.
+////////////////////////////
+TODO Can owner cancel starting ICO, if contract is already deploed?
+////////////////////////////
+=== Approve or reject user
+*Role:* Owner
+
+*Period:* before ICO ends
+
+*Description:* Owner can approve or reject a user request to enter the whitelist.
+
+=== View list of requests
+*Role:* Owner
+
+*Period:* any
+
+*Description:* Owner can view all requests, received before ICO ending.
