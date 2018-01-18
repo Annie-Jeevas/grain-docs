@@ -1,0 +1,42 @@
+= Grain.io specifications
+Author's Name <anna.light.terry@gmail.com>
+
+:numbered:
+== Common
+=== Glossary
+There are some terms, which we use though this document.
+[glossary]
+Initial coin offering (ICO)::
+    attraction of investments by selling
+    a fixed number of new units of crypto-currencies to investors
+
+Know Your Client (KYC)::
+    a policy in which financial institutions are required to establish
+    the identity of their client before conducting transactions with him
+
+=== Users and roles
+- User – client, who didn't pass confirmation of identity yet
+- Investor – client who passed the confirmation of identity; potential buyer of tokens
+- Owner  – representative of the system owner
+
+*Users* can view statistics to make sure, ICO proceeds successful. _It can attract new investors._
+
+*Investors* can buy tokens to:
+
+- profit in the future
+- support the project evolution
+
+*Owner* can start and end ICO.
+
+== Business processes
+In the Fig.1 you can see use cases of the system. More about it.
+
+.Use case diagram
+image::../images/use case.PNG[Use case diagram]
+
+=== Leave a request
+In accordance with KYC, user must confirm his identity before buying tokens. So, user can leave
+a request to enter his address in the whitelist.
+////////////////////////////
+TODO What data should user provide to get the permission?
+////////////////////////////
