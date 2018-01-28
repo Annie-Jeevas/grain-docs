@@ -109,6 +109,15 @@ Owner should specify following parameters:
 - token rate to Ether
 
 Owner can do it using his favourite Ethereum client or WebSite
+==== Add progress stage
+*Role:* Owner
+
+*Period:* before ICO ends
+
+*Description:* Owner can identify new ICO stage by specifying following parameters:
+
+- the proportion of the target amount (percents)
+- stage name
 
 === Investor's use cases
 ==== Buy tokens
@@ -129,3 +138,14 @@ Investor can do it using his favourite Ethereum wallet or WebSite
 *Period:* any
 
 *Description:* Investor can view how many tokens he already bought.
+
+==== Receive notifications about ICO progress
+*Role:* Investor
+
+*Period:* during ICO continue
+
+*Description:* Investor should get notifications about passing of the ICO stages. For example:
+"Congratulations! We have collected already 7% of target amount. We plan to spend it to organize
+ operational costs, besides the tech and marketing budgets."
+
+ System should notify investors when collected amount achieves next ICO stage.

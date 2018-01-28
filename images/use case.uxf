@@ -226,8 +226,8 @@ token rate</panel_attributes>
       <h>90</h>
     </coordinates>
     <panel_attributes>View this
-customer
-token number</panel_attributes>
+investor
+token amount</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
