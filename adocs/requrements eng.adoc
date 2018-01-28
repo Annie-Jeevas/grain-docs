@@ -35,8 +35,8 @@ In the Fig.1 you can see use cases of the system. More about it.
 
 .Use case diagram
 image::../images/use case.PNG[Use case diagram]
-
-=== Leave a request
+=== User's use cases
+==== Leave a request
 *Role:* User
 
 *Period:* before ICO ends
@@ -47,7 +47,7 @@ a request to enter his address in the whitelist.
 TODO What data should user provide to get the permission?
 TODO How should ICO end?
 ////////////////////////////
-=== View statistics
+==== View statistics
 *Role:* User, Investor, Owner
 
 *Period:* any
@@ -58,7 +58,7 @@ TODO How should ICO end?
  - number of investors
  - ratio of the sold token amount to the common token amount
 
-=== View ICO period
+==== View ICO period
 *Role:* User, Investor, Owner
 
 *Period:* any
@@ -67,16 +67,65 @@ TODO How should ICO end?
 ////////////////////////////
 TODO Can owner cancel starting ICO, if contract is already deploed?
 ////////////////////////////
-=== Approve or reject user
+
+=== Owner's use cases
+==== Approve or reject user
 *Role:* Owner
 
 *Period:* before ICO ends
 
 *Description:* Owner can approve or reject a user request to enter the whitelist.
 
-=== View list of requests
+==== View list of requests
 *Role:* Owner
 
 *Period:* any
 
-*Description:* Owner can view all requests, received before ICO ending.
+*Description:* Owner can view all requests, received from pretenders for whitelisting before
+ICO ending.
+
+==== Start ICO
+*Role:* Owner
+
+*Period:* before ICO starts
+
+*Description:* Owner can start ICO or plan begin if it specifying following parameters:
+
+- date of ICO begin (optional)
+- date of ICO ending
+- target amount in Ether
+- token rate to Ether
+
+Owner can do it using his favourite Ethereum client or WebSite
+
+==== Change token rate
+*Role:* Owner
+
+*Period:* during ICO continue
+
+*Description:* Owner can change the ratio of token to Ether.
+Owner should specify following parameters:
+
+- token rate to Ether
+
+Owner can do it using his favourite Ethereum client or WebSite
+
+=== Investor's use cases
+==== Buy tokens
+*Role:* Investor
+
+*Period:* during ICO continue
+
+*Description:* Investor can get some tokens by transferring Ether to constant address.
+Investor should specify following parameters:
+
+- Ether amount, for which he wants to buy tokens
+
+Investor can do it using his favourite Ethereum wallet or WebSite
+
+==== View this investor token amount
+*Role:* Investor
+
+*Period:* any
+
+*Description:* Investor can view how many tokens he already bought.
