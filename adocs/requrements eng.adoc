@@ -14,6 +14,13 @@ Know Your Client (KYC)::
     a policy in which financial institutions are required to establish
     the identity of their client before conducting transactions with him
 
+Multisignature wallet::
+    Standard transactions on the Ethereum network require only one signature —
+    from the owner of the private key associated with the address. Multisignature wallet requires
+    several private keys to make a single transaction. It allows a group of people to manage funds
+    jointly.
+
+
 === Users and roles
 - User – client, who didn't pass confirmation of identity yet
 - Investor – client who passed the confirmation of identity; potential buyer of tokens
@@ -22,9 +29,7 @@ Know Your Client (KYC)::
 *Users* can view statistics to make sure, ICO proceeds successful. _It can attract new investors._
 
 *Investors* can buy tokens to:
-////////////////////////////
-TODO What will investors get after ICO ending?
-////////////////////////////
+
 - profit in the future
 - support the project evolution
 
@@ -45,7 +50,8 @@ image::../images/use case.PNG[Use case diagram]
 a request to enter his address in the whitelist.
 ////////////////////////////
 TODO What data should user provide to get the permission?
-TODO How should ICO end?
+TODO How should ICO end? By timer or when target amount will be
+collected? What if ICO won't get enougth Ether by endDate?
 ////////////////////////////
 ==== View statistics
 *Role:* User, Investor, Owner
@@ -125,7 +131,8 @@ Owner can do it using his favourite Ethereum client or WebSite
 
 *Period:* during ICO continue
 
-*Description:* Investor can get some tokens by transferring Ether to constant address.
+*Description:* Investor can get some tokens by transferring Ether to constant address. This address
+is a multisignature wallet, which allows improve safety of this address.
 Investor should specify following parameters:
 
 - Ether amount, for which he wants to buy tokens
