@@ -1,0 +1,4 @@
+1. How should ICO end? By timer or when target amount will be collected? What if ICO won't get enougth Ether by endDate?
+2. What data should user provide to fall into whitelist? Surname, phone number, email?
+3. Can owner cancel starting ICO, if contract is already deploed?
+4. Should system notify potential investors about their requests status?

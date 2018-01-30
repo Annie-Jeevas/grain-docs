@@ -1,5 +1,8 @@
 = Grain.io specifications
 Author's Name <anna.light.terry@gmail.com>
+:toc: left
+:toclevels: 2
+:toc-title:
 
 :numbered:
 == Common
@@ -49,8 +52,8 @@ image::../images/use case.PNG[Use case diagram]
 *Description:* In accordance with KYC, user must confirm his identity before buying tokens. So, user can leave
 a request to enter his address in the whitelist.
 ////////////////////////////
-TODO What data should user provide to get the permission?
-TODO How should ICO end? By timer or when target amount will be
+TODO1 What data should user provide to get the permission?
+TODO2 How should ICO end? By timer or when target amount will be
 collected? What if ICO won't get enougth Ether by endDate?
 ////////////////////////////
 ==== View statistics
@@ -71,7 +74,7 @@ collected? What if ICO won't get enougth Ether by endDate?
 
 *Description:* User can view time limits of ICO, if they are established.
 ////////////////////////////
-TODO Can owner cancel starting ICO, if contract is already deploed?
+TODO3 Can owner cancel starting ICO, if contract is already deploed?
 ////////////////////////////
 
 === Owner's use cases
@@ -158,3 +161,23 @@ Investor can do it using his favourite Ethereum wallet or WebSite
 
 System should notify investors when collected amount achieves next ICO stage.
 
+== After ICO ends
+When ICO will be stopped some use cases are not available anymore.
+
+Users:
+- can't leave a request to whitelisting
+
+Investors:
+- can't buy tokens
+
+Owner:
+- can't whitelist users
+- can't change token rate
+- can't start ICO
+//////////
+//TODO 3//
+//////////
+
+/////////////////////////////////////////////////////////////////
+//TODO4 If ICO will fail it need to return money to its owners.//
+/////////////////////////////////////////////////////////////////
